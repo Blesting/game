@@ -23,3 +23,7 @@ b = [2,2,3,6,78,65,4,4,5]
   
 FindDuplicates(a)  
 FindDuplicates(b)
+
+print(set(a) & set(b))
+
+
